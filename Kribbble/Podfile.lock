@@ -1,0 +1,69 @@
+PODS:
+  - IGListKit (3.1.1):
+    - IGListKit/Default (= 3.1.1)
+  - IGListKit/Default (3.1.1):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.1.1)
+  - Kingfisher (4.2.0)
+  - OMGHTTPURLRQ (3.2.3):
+    - OMGHTTPURLRQ/RQ (= 3.2.3)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.3)
+  - OMGHTTPURLRQ/RQ (3.2.3):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.2.3)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - PromiseKit/CorePromise (4.5.1)
+  - PromiseKit/Foundation (4.5.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/OMGHTTPURLRQ (4.5.1):
+    - OMGHTTPURLRQ (~> 3.2)
+    - PromiseKit/Foundation
+  - Result (3.0.0)
+  - SnapKit (4.0.0)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - IGListKit (~> 3.0)
+  - Kingfisher (~> 4.2.0)
+  - PromiseKit/Foundation (~> 4.0)
+  - PromiseKit/OMGHTTPURLRQ (~> 4.0)
+  - Result (~> 3.0.0)
+  - SnapKit (~> 4.0.0)
+  - Texture
+
+SPEC CHECKSUMS:
+  IGListKit: cb97f405ae43e59fe1da74271e19427ec20d3c07
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  OMGHTTPURLRQ: 54c81b179bd5fd223879b29569f88be17a58ec23
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: 7f042fa6df5b606deb4bd5997654cf7033d5be1d
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  PromiseKit: 445dac9b2c3c3b4b31b5f842bc325700b848a8bd
+  Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+
+PODFILE CHECKSUM: 608dd817fd81395c932f78a50eb433ea042f28dd
+
+COCOAPODS: 1.4.0
