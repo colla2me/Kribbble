@@ -14,7 +14,7 @@
 #define maxTextScale 0.3
 
 @interface SPPageMenuLine : UIImageView
-@property (nonatomic, copy) void(^hideBlock)();
+@property (nonatomic, copy) void(^hideBlock)(void);
 
 @end
 

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E0C38DC20160FC1007D2A4D /* DRShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C38DB20160FC1007D2A4D /* DRShot.swift */; };
-		7E0C38E2201614C3007D2A4D /* DRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C38E1201614C3007D2A4D /* DRUser.swift */; };
 		7E0C38F420170D9E007D2A4D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C38F320170D9E007D2A4D /* Service.swift */; };
 		7E0C390420170F7C007D2A4D /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C390320170F7C007D2A4D /* ServiceType.swift */; };
 		7E0C3906201766EE007D2A4D /* Dribbble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C3905201766EE007D2A4D /* Dribbble.swift */; };
@@ -68,8 +66,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E0C38DB20160FC1007D2A4D /* DRShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRShot.swift; sourceTree = "<group>"; };
-		7E0C38E1201614C3007D2A4D /* DRUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRUser.swift; sourceTree = "<group>"; };
 		7E0C38F320170D9E007D2A4D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		7E0C390320170F7C007D2A4D /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
 		7E0C3905201766EE007D2A4D /* Dribbble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dribbble.swift; sourceTree = "<group>"; };
@@ -212,8 +208,6 @@
 				7E9F134D20138B1D00A9D8A7 /* Like.swift */,
 				7E9F13512013907000A9D8A7 /* Links.swift */,
 				7E9F13592013ABA800A9D8A7 /* Empty.swift */,
-				7E0C38DB20160FC1007D2A4D /* DRShot.swift */,
-				7E0C38E1201614C3007D2A4D /* DRUser.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -521,7 +515,6 @@
 				7E3FAC042022FF8E00EA0DAA /* String+HTML.swift in Sources */,
 				7E3FAE822025E77400EA0DAA /* ShotViewModel.swift in Sources */,
 				7E768BE520123768000AC6DA /* Bucket.swift in Sources */,
-				7E0C38E2201614C3007D2A4D /* DRUser.swift in Sources */,
 				7E0EC187200F2B7A00251A19 /* Route.swift in Sources */,
 				7E0EC18D200F3B3800251A19 /* ServerConfig.swift in Sources */,
 				7E0EC166200E549B00251A19 /* DribbbleCollectionView.swift in Sources */,
@@ -542,7 +535,6 @@
 				7E9F135020138FFD00A9D8A7 /* Keychain.swift in Sources */,
 				7E3FAE7420248C3300EA0DAA /* ShotTableNodeCell.swift in Sources */,
 				7E3FAE762024A82600EA0DAA /* CommentTableNodeCell.swift in Sources */,
-				7E0C38DC20160FC1007D2A4D /* DRShot.swift in Sources */,
 				7E0EC197200F4CAE00251A19 /* ClientAuth.swift in Sources */,
 				7E9F134C201386DD00A9D8A7 /* Comment.swift in Sources */,
 				7E9F13262012472100A9D8A7 /* Followee.swift in Sources */,
