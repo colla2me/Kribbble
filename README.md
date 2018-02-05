@@ -6,4 +6,4 @@ Kribbble is a dribbble client that has used the dribbble Api. You can find cool 
 > 遵从面向协议的 Swift 编程思想，去封装网络和模型，使用 Texture 的 flexbox 布局UI等等. 这一切没有多难，前提是你有时间和精力认真的去做.
 
 ## Preview
-![](https://wx3.sinaimg.cn/bmiddle/006IWwwDly1fo5kgmyhnzg307h0dcu10.gif)
+![](Kribbble.gif)
