@@ -2,8 +2,8 @@ import Foundation
 import AsyncDisplayKit
 
 class ShotTableNodeCell: ASCellNode {
-	let avatarImageNode: ASNetworkImageNode = {
-		let imageNode = ASNetworkImageNode()
+	let avatarImageNode: YYWebImageNode = {
+		let imageNode = YYWebImageNode()
 		imageNode.defaultImage = UIImage(named: "avatar-default_Normal")
 		imageNode.contentMode = .scaleAspectFit
 		imageNode.imageModificationBlock = ASImageNodeRoundBorderModificationBlock(0, nil)
@@ -34,9 +34,8 @@ class ShotTableNodeCell: ASCellNode {
 		return buttonNode
 	}()
 	
-	let photoImageNode: ASNetworkImageNode = {
-		let imageNode = ASNetworkImageNode()
-		imageNode.defaultImage = UIImage(named: "photo")
+	let photoImageNode: YYWebImageNode = {
+		let imageNode = YYWebImageNode()
 		return imageNode
 	}()
 	
@@ -60,7 +59,8 @@ class ShotTableNodeCell: ASCellNode {
 		self.commentButton.setAttributedTitle(NSAttributedString(string: String(shot.commentsCount), attributes: attributes), for: .normal)
 		
 		self.avatarImageNode.url = shot.user.avatarUrl
-		self.photoImageNode.url = shot.images.normal
+		self.photoImageNode.defaultImage = UIImage.cachedImage(with: shot.images.normal)
+		self.photoImageNode.url = shot.images.hidpi
 		if let text = shot.description {
 			self.descriptionLabel.delegate = self
 			self.descriptionLabel.isUserInteractionEnabled = true

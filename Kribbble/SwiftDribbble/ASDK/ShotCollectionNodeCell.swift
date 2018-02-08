@@ -53,14 +53,14 @@ class ShotCollectionNodeCell: ASCellNode {
 
 class ShotContentNode: ASDisplayNode {
 	
-	let shotImageNode: ASNetworkImageNode = {
-		let imageNode = ASNetworkImageNode()
+	let shotImageNode: YYWebImageNode = {
+		let imageNode = YYWebImageNode()
 		imageNode.backgroundColor = UIColor.primaryBackgroundColor
 		return imageNode
 	}()
 	
-	let avatarImageNode: ASNetworkImageNode = {
-		let imageNode = ASNetworkImageNode()
+	let avatarImageNode: YYWebImageNode = {
+		let imageNode = YYWebImageNode()
 		imageNode.defaultImage = UIImage(named: "avatar-default_Normal")
 		imageNode.contentMode = .scaleAspectFit
 		imageNode.imageModificationBlock = ASImageNodeRoundBorderModificationBlock(0, nil)

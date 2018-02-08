@@ -2,8 +2,8 @@ import AsyncDisplayKit
 
 class CommentTableNodeCell: ASCellNode {
 
-	let avatarImageNode: ASNetworkImageNode = {
-		let imageNode = ASNetworkImageNode()
+	let avatarImageNode: YYWebImageNode = {
+		let imageNode = YYWebImageNode()
 		imageNode.defaultImage = UIImage(named: "avatar-default_Normal")
 		imageNode.contentMode = .scaleAspectFit
 		imageNode.imageModificationBlock = ASImageNodeRoundBorderModificationBlock(0, nil)
