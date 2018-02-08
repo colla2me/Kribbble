@@ -25,7 +25,6 @@
 		7E0EC1AD20106A5C00251A19 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0EC1AC20106A5C00251A19 /* Shot.swift */; };
 		7E3FAC042022FF8E00EA0DAA /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAC032022FF8E00EA0DAA /* String+HTML.swift */; };
 		7E3FAC062023069D00EA0DAA /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAC052023069D00EA0DAA /* UIColor+HexString.swift */; };
-		7E3FAE702024874900EA0DAA /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE6F2024874900EA0DAA /* Webservice.swift */; };
 		7E3FAE7220248BC200EA0DAA /* ShotTableNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE7120248BC200EA0DAA /* ShotTableNodeController.swift */; };
 		7E3FAE7420248C3300EA0DAA /* ShotTableNodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE7320248C3300EA0DAA /* ShotTableNodeCell.swift */; };
 		7E3FAE762024A82600EA0DAA /* CommentTableNodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE752024A82600EA0DAA /* CommentTableNodeCell.swift */; };
@@ -34,7 +33,6 @@
 		7E3FAE7C2025940E00EA0DAA /* ShotsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE7B2025940E00EA0DAA /* ShotsLayout.swift */; };
 		7E3FAE7E20259A2000EA0DAA /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE7D20259A2000EA0DAA /* UIColor+Theme.swift */; };
 		7E3FAE822025E77400EA0DAA /* ShotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE812025E77400EA0DAA /* ShotViewModel.swift */; };
-		7E3FAE842025EC2600EA0DAA /* Webresource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE832025EC2600EA0DAA /* Webresource.swift */; };
 		7E3FAE8A202614CC00EA0DAA /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE89202614CC00EA0DAA /* UIFont.swift */; };
 		7E3FAE8E2026FB3900EA0DAA /* PagerNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE8D2026FB3900EA0DAA /* PagerNodeController.swift */; };
 		7E3FAE902026FD6B00EA0DAA /* PagerNodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FAE8F2026FD6B00EA0DAA /* PagerNodeCell.swift */; };
@@ -84,7 +82,6 @@
 		7E0EC1AC20106A5C00251A19 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 		7E3FAC032022FF8E00EA0DAA /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 		7E3FAC052023069D00EA0DAA /* UIColor+HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
-		7E3FAE6F2024874900EA0DAA /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		7E3FAE7120248BC200EA0DAA /* ShotTableNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotTableNodeController.swift; sourceTree = "<group>"; };
 		7E3FAE7320248C3300EA0DAA /* ShotTableNodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotTableNodeCell.swift; sourceTree = "<group>"; };
 		7E3FAE752024A82600EA0DAA /* CommentTableNodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableNodeCell.swift; sourceTree = "<group>"; };
@@ -93,7 +90,6 @@
 		7E3FAE7B2025940E00EA0DAA /* ShotsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotsLayout.swift; sourceTree = "<group>"; };
 		7E3FAE7D20259A2000EA0DAA /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
 		7E3FAE812025E77400EA0DAA /* ShotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotViewModel.swift; sourceTree = "<group>"; };
-		7E3FAE832025EC2600EA0DAA /* Webresource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webresource.swift; sourceTree = "<group>"; };
 		7E3FAE852025FA0800EA0DAA /* SwiftDribbble-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDribbble-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E3FAE89202614CC00EA0DAA /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		7E3FAE8D2026FB3900EA0DAA /* PagerNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerNodeController.swift; sourceTree = "<group>"; };
@@ -173,7 +169,6 @@
 		7E0EC182200F2B0200251A19 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				7E3FAE6E20246E6D00EA0DAA /* v2 */,
 				7E0EC185200F2B2200251A19 /* auth */,
 				7E3FAE6C20246D6F00EA0DAA /* v1 */,
 				7E3FAE6D20246DE600EA0DAA /* promise-api */,
@@ -258,15 +253,6 @@
 				7E0C390320170F7C007D2A4D /* ServiceType.swift */,
 			);
 			path = "promise-api";
-			sourceTree = "<group>";
-		};
-		7E3FAE6E20246E6D00EA0DAA /* v2 */ = {
-			isa = PBXGroup;
-			children = (
-				7E3FAE6F2024874900EA0DAA /* Webservice.swift */,
-				7E3FAE832025EC2600EA0DAA /* Webresource.swift */,
-			);
-			path = v2;
 			sourceTree = "<group>";
 		};
 		7E9F135B20147C3F00A9D8A7 /* Extensions */ = {
@@ -507,7 +493,6 @@
 				7E9F13522013907000A9D8A7 /* Links.swift in Sources */,
 				7EE679D12019C69F00F713CB /* Storyboard.swift in Sources */,
 				7E0C38F420170D9E007D2A4D /* Service.swift in Sources */,
-				7E3FAE842025EC2600EA0DAA /* Webresource.swift in Sources */,
 				7E3FAE782025899600EA0DAA /* ShotCollectionNodeController.swift in Sources */,
 				7E3FAE7E20259A2000EA0DAA /* UIColor+Theme.swift in Sources */,
 				7E3FAE7220248BC200EA0DAA /* ShotTableNodeController.swift in Sources */,
@@ -522,7 +507,6 @@
 				7E9F135D20147CA400A9D8A7 /* UICollectionView+Extension.swift in Sources */,
 				7E3FAE8E2026FB3900EA0DAA /* PagerNodeController.swift in Sources */,
 				7EB509411F92411000005807 /* AppDelegate.swift in Sources */,
-				7E3FAE702024874900EA0DAA /* Webservice.swift in Sources */,
 				7EE4A7DB2010DF8100B7044A /* Session.swift in Sources */,
 				7E3FAC062023069D00EA0DAA /* UIColor+HexString.swift in Sources */,
 				7E3FAE7C2025940E00EA0DAA /* ShotsLayout.swift in Sources */,
